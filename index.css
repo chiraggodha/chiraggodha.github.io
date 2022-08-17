@@ -1,0 +1,102 @@
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px black solid;
+}
+
+a:link{
+    text-decoration: none;
+    color:rgb(68, 35, 99)
+}
+
+a:hover{
+    color: blue;
+}
+
+
+.header{
+    grid-column: 1/4;
+}
+
+.title{
+    padding: 1em;
+}
+
+img{
+    position: relative;
+    padding-left: 480px;
+
+}
+
+.links{
+    /* padding: 1em; */
+    list-style-type: none;
+    white-space: pre-line;
+}
+
+.name{
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.major{
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.bar{
+    grid-column: 1/5;
+}
+
+.navbar{
+    text-align: center;
+    border-top: 2px black solid;
+}
+
+.parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pic{
+    grid-column: 1/2;
+}
+
+.cg{
+    padding: 1em;
+    padding-left: 2em;
+}
+.abtMe{
+    grid-column: 2/4;
+    padding: 1em;
+}
+
+.abtMe > h1{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-decoration-thickness: 2px;
+}
+
+.abtMe > p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.contact{
+    padding: 1em;
+}
+
+.contact > h3{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-decoration-thickness: 2px;
+}
+
+.contact > ul{
+    list-style-type: none;
+    white-space: pre-line;
+}
