@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Godha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="Chirag_Godha_Resume.pdf">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project-container">
+        <div class="project">
+            <img src="images/CIFAR_10.png" alt="Project 1 Image" class="project-img">
+            <div class="project-text">
+                <h2>Computer Vision Neural Network</h2>
+                <p>The code provided is for a deep learning assignment implemented in Python using the PyTorch library. It focuses on the initialization, training, and evaluation of neural networks on the MNIST dataset, a popular dataset for handwritten digit classification. The code includes dataset initialization, model definition, training loops, and problem-solving involving mathematical functions for neural network parameter calculations.</p>
+                <ul>
+                    <li>Tested base linear softmax model against a model I created</li>
+                    <li>Compared difference in accuracy and performance when using different batch sizes</li>
+                    <li>Analyzed difference in Stochastic Gradient Descent (SGD) and Adaptive Moment Estimation (Adam) in computer vision training</li>
+                    <li>Recorded and analyzed different activation functions and how they affected testing accuracy</li>
+                    <li>Compared linear softmax networks of different densities to convolutional networks with multiple convolutional layers</li>
+                    <li>Created an autoencoder to help extract better, more learnable features from the dataset</li>
+                </ul>
+                <br>
+                <a href="https://colab.research.google.com/drive/1Rf2wCHXNcjcxgWXg6YYOHfLEVn8kje6V?usp=sharing" target="_blank"> Link to Colab Notebook 1</a>
+                <br>
+                <a href="https://colab.research.google.com/drive/1G5-Zd-w1V_TzezPAghiTJ71E1zMQvRij?usp=sharing" target="_blank"> Link to Colab Notebook 2</a>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skill_list">
+                    <li><label>Python</label></li>
+                    <progress id="java" value="80" max="100"></progress>
+                    <li><label>PyTorch</label></li>
+                    <progress id="python" value="60" max="100"></progress>
+                    <li><label>Deep Learning</label></li>
+                    <progress id="html-css" value="50" max="100"></progress>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="images/BotGrid.png" alt="Project 2 Image" class="project-img">
+            <div class="project-text">
+                <h2>Maze Searching Techniques</h2>
+                <p>In order to analyze different path finding algorithms, I created a simulation to test for the best path finding solutions on a given problem. The simulation was set up with an initial generation of blocked and open cells on a NxN grid, 'spaceship'. There exists a bot, button, and fire on three random locations of the spaceship and the goal is for the bot to reach the button before the fire spreads and destroys the button or bot. I created 4 different versions of this bot to simulate different strategies and tested to see which was the most efficient. Bot1 was a simple DFS implementation which failed more often than not. Bot2 utilized BFS which proved to be substantially more successful than Bot1. Bot3 used a modified version of BFS with a priority queue and fire spread probability information to try and beat the spread of the fire. Bot4 used A* and used the Manhattan distance to the button as its heuristic.</p>
+                <a href="https://colab.research.google.com/drive/1HT159LRkNqwPRRnFleTf_tz28q28I-mz?usp=sharing" target="_blank"> Link to Colab Notebook</a>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skill_list">
+                    <li><label>Python</label></li>
+                    <progress id="java" value="80" max="100"></progress>
+                    <li><label>Artifical Intelligence</label></li>
+                    <progress id="python" value="60" max="100"></progress>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="images/airline.png" alt="Project 3 Image" class="project-img">
+            <div class="project-text">
+                <h2>Airline Agency Fullstack Site</h2>
+                <p>This project is a comprehensive flight tracking and booking system built using Java Spring Boot for the backend, MySQL for the database, and utilizing JSx for the frontend. This application allows users to register and log in, view available flights, book flights, and cancel bookings. It ensures a seamless user experience with a robust backend architecture and a user-friendly frontend interface.</p>
+                <ul>
+                    <li>Created and optimized database ER diagram to ensure data safety</li>
+                    <li>Stored all user data in MySQL database</li>
+                    <li>Created a backend network using Java Spring Boot and Apache Tomcat</li>
+                    <li>Implemented role based access control(e.g., user, admin) to control access to different parts of the application</li>
+                    <li>Worked in a team of 4 and used Git as version control to keep all parts of the project smoothly working</li>
+                </ul>
+                <br>
+                <a href="https://github.com/JayPrasad1231/DatabasesFinalProject" target="_blank"> Link to GitHub repo</a>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skill_list">
+                    <li><label>Java</label></li>
+                    <progress id="java" value="80" max="100"></progress>
+                    <li><label>Spring Boot</label></li>
+                    <progress id="python" value="60" max="100"></progress>
+                    <li><label>MySQL</label></li>
+                    <progress id="html-css" value="50" max="100"></progress>
+                    <li><label>Fullstack Development</label></li>
+                    <progress id="react-js" value="40" max="100"></progress>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="more">More coming ... </p>
+
+    <footer>
+        <p>Chirag Godha 2023</p>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/chiraggodha" target="_blank">
+                    <img src="images/linkedinlogo.png" alt="LinkedIn" class="footer-icon"> LinkedIn
+                </a></li>
+                <li><a href="mailto:chiraggodha2003@gmail.com">
+                    <img src="images/gmaillogo.png" alt="Email" class="footer-icon"> Email
+                </a></li>
+                <li>
+                    <img src="images/phonelogo.png" alt="Phone" class="footer-icon"> 347-825-6832
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
